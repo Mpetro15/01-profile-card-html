@@ -1,0 +1,57 @@
+body {
+    background-color: lightgreen; /* Sets the background color of the page */
+    font-family: 'Roboto', Arial, sans-serif; /* Applies the Roboto font, with fallbacks */
+}
+
+.profile-card {
+    background: #fff; /* White background for the card */
+    border: 2px solid #ccc; /* Light gray border around the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    max-width: 400px; /* Maximum width of the card */
+    margin: 60px auto; /* Centers the card horizontally and adds space at the top and bottom */
+    padding: 32px 24px; /* Adds space inside the card (top/bottom 32px, left/right 24px) */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Subtle shadow for a lifted effect */
+}
+
+.profile-card img {
+    display: block; /* Makes the image a block element */
+    width: 90px; /* Sets the image width */
+    height: 90px; /* Sets the image height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.profile-card h1 {
+    font-size: 3em; /* Large font size for the main heading */
+    color: darkred; /* Dark red color for the main heading */
+    text-align: center; /* Centers the main heading */
+}
+
+.profile-card h2 {
+    font-size: 2em; /* Medium-large font size for the subheading */
+    color: blue; /* Blue color for the subheading */
+    text-align: center; /* Centers the subheading */
+}
+
+.profile-card p {
+    font-size: 1.3em; /* Slightly larger font size for the paragraph */
+    line-height: 1.6; /* Increases line spacing for readability */
+    text-align: center; /* Centers the paragraph text */
+}
+
+.profile-card h3 {
+    font-size: 1.3em; /* Font size for the section heading */
+    color: black; /* Black color for the section heading */
+    text-align: center; /* Centers the section heading */
+}
+
+.profile-card ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes default padding */
+    margin: 20px 0 0 0; /* Adds space above the list */
+    text-align: center; /* Centers the list items */
+}
+
+.profile-card ul li {
+    margin: 10px 0; /* Adds vertical spacing between list items */
+}
